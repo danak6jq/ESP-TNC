@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # I2S Built-in ADC/DAC Example
 
 (See the README.md file in the upper level 'examples' directory for more information about examples.)
@@ -89,3 +90,6 @@ I2S: PLL_D2: Req RATE: 16000, real rate: 1004.000, BITS: 16, CLKM: 83, BCK: 60, 
     * The baud rate for downloading is too high: lower your baud rate in the `menuconfig` menu, and try again.
 
 For any technical queries, please open an [issue](https://github.com/espressif/esp-idf/issues) on GitHub. We will get back to you soon.
+=======
+# ESP-TNC
+>>>>>>> fcb2e5d6261b6541fbddfd235cd0e9f8c99e7d89
