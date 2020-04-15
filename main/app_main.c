@@ -1,6 +1,7 @@
 /* ========================================
  *
  * Copyright © 2019, Dana H. Myers.
+ * All rights reserved.
  *
  * SPDX-License-Identifier: Apache-2.0
  *
