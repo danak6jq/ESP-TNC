@@ -1,12 +1,21 @@
 /* ========================================
  *
- * Copyright © 2019, Dana H. Myers.
+ * Copyright Â© 2019, Dana H. Myers.
  * All Rights Reserved
- * UNPUBLISHED, LICENSED SOFTWARE.
  *
- * CONFIDENTIAL AND PROPRIETARY INFORMATION
- * WHICH IS THE PROPERTY OF Dana H. Myers.
+ * SPDX-License-Identifier: Apache-2.0
  *
+ * Licensed under the Apache License, Version 2.0 (the License); you may
+ * not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an AS IS BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  * ========================================
 */
 
@@ -553,7 +562,7 @@ iGateInTask(void *arg)
 	     * Login to APRS-IS
 	     * XXX: make this configurable
 	     */
-	    char *login = "user K6JQ pass 29317 vers k6jq-test v0.1 filter m/200 b/ECHO\r\n";
+	    char *login = "user XXXX pass XXXX vers k6jq-test v0.1 filter m/200 b/ECHO\r\n";
 	    // XXX: check error return
 	    // XXX: odds are the read() will fail anyway in this case
 	    send(getiGateSocket(), login, strlen(login), 0);
