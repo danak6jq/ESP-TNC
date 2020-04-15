@@ -1,3 +1,3 @@
 ESP-TNC
 
-Fill this in
+Clone, cd into clone, do 'git submodule update --init', then 'idf.py build'
