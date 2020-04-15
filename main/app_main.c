@@ -1,6 +1,6 @@
 /* ========================================
  *
- * Copyright © 2019, Dana H. Myers.
+ * Copyright Â© 2019, Dana H. Myers.
  * All Rights Reserved
  * UNPUBLISHED, LICENSED SOFTWARE.
  *
@@ -286,8 +286,8 @@ codecStart()
  *
  */
 
-#define DEFAULT_SSID    "k6jq"
-#define DEFAULT_PWD     "k6jqqj6k"
+#define DEFAULT_SSID    "SSID"
+#define DEFAULT_PWD     "PASSWORD"
 #define DEFAULT_PS_MODE WIFI_PS_NONE
 
 // #define IP4_CONNECTED_BIT   BIT0
