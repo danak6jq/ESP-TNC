@@ -13,6 +13,8 @@ Update these lines in app_main.c for your WiFi configuration:
 #define DEFAULT_SSID    "SSID"
 #define DEFAULT_PWD     "PASSWORD"
 
+TCP KISS is at port 8001
+
 Decode performance is best with audio input level 'hot' on received packets from discriminator output (not de-emphasized audio) (in open-squelch operation, ignore non-packet noise level, it will clip, that's fine). Some clipping on received packets is to be expected.
 
 PTT is IO_23, active high. Sorry about hiding that in the codec initialization.
