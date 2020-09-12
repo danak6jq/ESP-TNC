@@ -1,4 +1,4 @@
-ESP-TNC
+ESP-TNC: Science Fair Project DSP TNC
 
 Supports Ai Thinker ESP32 AudioKit V2.1 with ESP32-A1S (AC101 codec); minor refactoring and enhancement could support Espressif Lyra board. Not yet tested on AI Thinker ESP32 AudioKit V2.2 board but I expect it will just work.
 
