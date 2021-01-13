@@ -11,6 +11,7 @@ Audio in/out is on the right channel (I'd started with left, but then Espressif 
 Update these lines in app_main.c for your WiFi configuration:
 
 #define DEFAULT_SSID    "SSID"
+
 #define DEFAULT_PWD     "PASSWORD"
 
 TCP KISS is at port 8001
